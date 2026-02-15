@@ -1,0 +1,7 @@
+{
+  "name": "ElecStore Repair Quote",
+  "description": "A sleek, modern app for getting instant repair quotes for mobile devices. Developed with a vibrant blue and violet aesthetic, it uses AI to provide accurate diagnostic advice and price estimates.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
