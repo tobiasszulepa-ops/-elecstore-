@@ -3,7 +3,7 @@ import { GoogleGenAI, Type } from "@google/genai";
 import { QuoteRequest, QuoteResult } from "../types";
 
 export const getSmartQuote = async (request: QuoteRequest): Promise<QuoteResult> => {
-  const ai = new GoogleGenAI({ apiKey: import.meta.env.API_KEY || "" });
+  const ai = new GoogleGenAI({ apiKey: process.env.API_KEY || "" });
   
   const prompt = `Actúa como un técnico experto de "ElecStore" en Argentina.
     Genera una cotización ESTIMADA en PESOS ARGENTINOS (ARS) para un cambio de pantalla.
